@@ -44,9 +44,10 @@
                             <div class="cold_table_one margin_right">
                                 <div class="cold_table_category">
                                     <div class="cold_block">
+                                        <span class="cold_hover"></span>
                                         <div class="cold_category">
                                             <a href="#">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/img/tip_semanal.png">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/tip_semanal.png" rel="tip_semanal.png" alt="h_tip_semanal.png">
                                             </a>
                                         </div>
                                         <div class="cold_content">
@@ -60,13 +61,14 @@
                                         </div>
                                     </div>
                                     <div class="cold_block">
+                                        <span class="cold_hover"></span>
                                         <div class="cold_category">
                                             <a href="#">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/img/campeones_2011.png">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/campeones_2011.png" rel="campeones_2011.png" alt="h_campeones_2011.png">
                                             </a>
                                         </div>
                                         <div class="cold_content">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/img/Motociclismo-Santa-Cruz-Largada.jpg">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/img/Motociclismo-Santa-Cruz-Largada.jpg" >
                                             <p>
                                                 Consejos para correr
                                             </p>
@@ -76,9 +78,10 @@
                                         </div>
                                     </div>
                                     <div class="cold_block">
+                                        <span class="cold_hover"></span>
                                         <div class="cold_category">
                                             <a href="#">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/img/quieres_participar.png">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/quieres_participar.png" rel="quieres_participar.png" alt="h_quieres_participar.png">
                                             </a>
                                         </div>
                                         <div class="cold_content">
