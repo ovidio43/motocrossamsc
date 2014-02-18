@@ -17,7 +17,7 @@
         
         
     </head>
-    <body rel="<?php echo get_template_directory_uri(); ?>">
+    <body <?php body_class(); ?> rel="<?php echo get_template_directory_uri(); ?>" >
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -28,7 +28,10 @@
                 </div>
                 <span class="log_left_header"></span>
                 <div class="menu_header">
-                    <ul>
+                <?php
+                        wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'items_wrap' => '<ul class="no-padding">%3$s</ul>')); 
+                ?>
+                    <!--<ul>
                         <li><a href="#">AMSC</a></li>
                         <li><a href="#">NOTICIAS</a></li>
                         <li><a href="#">CALENDARIO DE EVENTOS</a></li>
@@ -37,7 +40,7 @@
                         <li><a href="#">PLANILLAS</a></li>
                         <li><a href="#">IMAGENES</a></li>
                         <li><a href="#">CONTACTOS</a></li>
-                    </ul>
+                    </ul>-->    
                 </div>
             </div>
             <span class="log_franj_line"></span>
