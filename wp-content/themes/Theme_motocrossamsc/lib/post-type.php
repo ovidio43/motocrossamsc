@@ -2,6 +2,7 @@
 function custom_post_type_init() {
     $post_types = array(
         array("slug" => "noticias", "plural" => "NOTICIAS", "singular" => "Noticia", "rewrite" => "noticia", "public" => true, "archive" => true, "supports" => array('title', 'editor', 'thumbnail')),
+        array("slug" => "imagenes", "plural" => "IMAGENES", "singular" => "Imagen", "rewrite" => "imagenes", "public" => true, "archive" => true, "supports" => array('title', 'editor', 'thumbnail'))
        
     );
 

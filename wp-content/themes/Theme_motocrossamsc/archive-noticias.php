@@ -76,7 +76,7 @@
                                             while ($myposts->have_posts()) :
                                                 $myposts->the_post();
                                    ?>   
-                                        <a href="#">                               
+                                        <a href="<?php the_permalink(); ?>">                               
                                             <div class="detail_content">
                                                 <h3> <?php the_title(); ?> </h3>
                                                 <div class="block_detail_content">

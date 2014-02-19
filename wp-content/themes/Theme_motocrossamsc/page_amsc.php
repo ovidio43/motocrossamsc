@@ -48,7 +48,7 @@
                         <h2>AMSC</h2>
                         <div class="content_pages">
                             <?php
-                                $page = get_page_by_path('ascm');
+                                $page = get_page_by_path('amsc');
                                 $args = array(
                                     'post_type' => 'page',
                                     'post__in' => array($page->ID)

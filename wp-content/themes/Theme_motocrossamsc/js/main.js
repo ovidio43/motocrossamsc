@@ -1,5 +1,18 @@
 jQuery(document).ready(function() {
-  
+
+	var url_raiz=jQuery('body').attr('rel');
+	var content_par=jQuery('.table_calendary:odd');
+	var content_impar=jQuery('.table_calendary:even');
+	jQuery(content_impar).css({"padding-top":"10px" , "padding-bottom":"10px"});
+  	jQuery(content_par).css("background-image","url('"+url_raiz+"/img/bgd_calendar.png')");
+
+  	jQuery('#frm_contact input ').on('click', function(e) {
+        e.preventDefault();
+        jQuery(this).attr("value","");
+        jQuery(this).css({"box-sizing":"none"});
+
+    });
+
 	 jQuery( ".cold_content" ).hover(
 		 function() {
 	  		jQuery(this).parent().siblings().children('.cold_hover').css("display","none");
