@@ -1,5 +1,6 @@
 jQuery(document).ready(function() {
 
+
 	var url_raiz=jQuery('body').attr('rel');
 	var content_par=jQuery('.table_calendary:odd');
 	var content_impar=jQuery('.table_calendary:even');
@@ -61,5 +62,17 @@ jQuery(document).ready(function() {
 
 	 	 }
 	 );
+
+        jQuery('.fancygallery').fancybox();
+        jQuery(".fancybox").on("click", function(){
+	        jQuery.fancybox({
+	          href: this.href,
+	          type: jQuery(this).data("type")
+	        }); // fancybox
+       		 return false   
+   		 }); // on
+  		//jQuery('.fancybox').fancybox();
+  
+        
 
 });

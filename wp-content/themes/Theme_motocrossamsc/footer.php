@@ -23,6 +23,7 @@
         <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/bootstrap.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider/jquery.bxslider.min.js"></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/source/jquery.fancybox.js?v=2.1.5"></script>
        <!-- <script  src="js/mootools-1.2-core.js"></script>
         <script  src="js/mootools-1.2-more.js"></script>
         <script  src="js/mooflow.js"></script>-->

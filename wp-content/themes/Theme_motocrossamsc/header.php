@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider/jquery.bxslider.css">
         <link rel="stylesheet" type='text/javascript' href="<?php echo get_template_directory_uri(); ?>/css/mooflow.css">
-        
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/source/jquery.fancybox.css?v=2.1.5" media="screen" />
         
     </head>
     <body <?php body_class(); ?> rel="<?php echo get_template_directory_uri(); ?>" >

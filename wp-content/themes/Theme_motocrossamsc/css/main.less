@@ -150,7 +150,7 @@ ul{
 						width: 32%;
 						display: inline-block;
 						padding: 5px;
-						a{
+						.img_galery{
 							position: relative;
 							width: 100%;
 							text-decoration: none;
@@ -160,6 +160,18 @@ ul{
 							display: block;
 							color:#fff;
 							padding-bottom: 5px;
+							.reproductor{
+								position:absolute;
+								top:0;
+								left:0;
+								right:0;
+								bottom:0;
+								margin:auto;
+								width:70px;
+								height:70px;
+								background:url('../img/reproductor.png');
+								z-index:5;
+							}
 							&:hover{
 								background-image: url('../img/h_bg_gallery.gif');
 							};
@@ -167,7 +179,7 @@ ul{
 								position: relative;
 								top: 14px;
 								width: 87%;
-								height: auto;
+								height:155px;
 								margin: auto;
 								display: block;
 							}

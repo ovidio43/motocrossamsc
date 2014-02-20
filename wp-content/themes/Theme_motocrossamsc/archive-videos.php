@@ -41,12 +41,13 @@
              <div class="body_block_two">
                   <span class="backgroud_body_two"></span>
                   <div class="wrapper">
-                        <h2>IMAGENES</h2>
+                        <h2>VIDEOS</h2>
                         <div class="content_pages">
                             <div class="image_content">
                                 <ul class="block_img">
-                                <?php
-                                  $type = 'imagenes';
+
+                                 <?php
+                                  $type = 'videos';
                                   $args=array(
                                     'post_type' => $type,
                                     'post_status' => 'publish',
@@ -59,32 +60,21 @@
                                                   $featured = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()),'large',false);
                                 ?>
                                     <li>
-                                         <?php 
-                                         $cont=1;
-                                         $images = get_field('list_imagenes');
-                                         if( $images ): ?>
-                                              <?php foreach( $images as $image ): ?>
-                                                  <a class="fancygallery"  href="<?php echo $image['sizes']['large']; ?>" rel="gallery_<?php echo get_the_ID(); ?>"  title="Sed vel sapien vel sem uno">
-                                                  </a>
-                                                  <?php $cont++; ?>
-                                              <?php endforeach; ?>
-                                         <?php endif; ?>
-                                        <a class="fancygallery img_galery" rel="gallery_<?php  echo get_the_ID(); ?>"  href="<?php echo $featured['0']; ?>" id="<?php echo get_the_ID(); ?>">
+                                        <a class="fancybox img_galery" data-type="iframe" href="http://www.youtube.com/embed/WAZ5SmJd1To?autoplay=1" title="youtube">
+                                           <span class="reproductor"></span>
                                            <img src="<?php echo $featured['0']; ?>" title="<?php echo get_the_title(); ?>">
                                            <br><br>
                                            <h5><?php the_title(); ?></h5>
-                                           <h5><?php echo $cont; ?> &nbsp;Fotos</h5> 
                                         </a>
-                                       
                                     </li>
                                  <?php endwhile; 
                                    wp_reset_query();
                                    else: ?>
                                    <p><?php _e('Sorry, no slider matched your criteria.'); ?></p>
                                    <?php endif; ?>
-                                  <!-- <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
+                                  <!--<li>
+                                        <a class="fancybox img_galery" data-type="iframe" href="http://www.youtube.com/embed/WAZ5SmJd1To?autoplay=1" title="youtube">
+                                            <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
                                            <br><br>
                                            <h5>6ta Fecha Departamental 2013</h5>
                                            <h5>64 Fotos</h5>  
@@ -92,56 +82,56 @@
                                         
                                     </li>
                                     <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
+                                         <a class="fancybox img_galery" data-type="iframe" href="http://www.youtube.com/embed/WAZ5SmJd1To?autoplay=1" title="youtube">
+                                            <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
                                            <br><br>
                                            <h5>6ta Fecha Departamental 2013</h5>
                                            <h5>64 Fotos</h5>  
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
+                                         <a class="fancybox img_galery" data-type="iframe" href="http://www.youtube.com/embed/WAZ5SmJd1To?autoplay=1" title="youtube">
+                                            <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
                                            <br><br>
                                            <h5>6ta Fecha Departamental 2013</h5>
                                            <h5>64 Fotos</h5>  
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
+                                         <a class="fancybox img_galery" data-type="iframe" href="http://www.youtube.com/embed/WAZ5SmJd1To?autoplay=1" title="youtube">
+                                            <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
                                            <br><br>
                                            <h5>6ta Fecha Departamental 2013</h5>
                                            <h5>64 Fotos</h5>  
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
+                                         <a class="fancybox img_galery" data-type="iframe" href="http://www.youtube.com/embed/WAZ5SmJd1To?autoplay=1" title="youtube">
+                                            <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
                                            <br><br>
                                            <h5>6ta Fecha Departamental 2013</h5>
                                            <h5>64 Fotos</h5>  
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
+                                         <a class="fancybox img_galery" data-type="iframe" href="http://www.youtube.com/embed/WAZ5SmJd1To?autoplay=1" title="youtube">
+                                            <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
                                            <br><br>
                                            <h5>6ta Fecha Departamental 2013</h5>
                                            <h5>64 Fotos</h5>  
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
+                                         <a class="fancybox img_galery" data-type="iframe" href="http://www.youtube.com/embed/WAZ5SmJd1To?autoplay=1" title="youtube">
+                                            <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
                                            <br><br>
                                            <h5>6ta Fecha Departamental 2013</h5>
                                            <h5>64 Fotos</h5>  
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
+                                         <a class="fancybox img_galery" data-type="iframe" href="http://www.youtube.com/embed/WAZ5SmJd1To?autoplay=1" title="youtube">
+                                            <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
                                            <br><br>
                                            <h5>6ta Fecha Departamental 2013</h5>
                                            <h5>64 Fotos</h5>  
