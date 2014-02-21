@@ -59,7 +59,7 @@
              <div class="body_block_two">
                   <span class="backgroud_body_two"></span>
                   <div class="wrapper">
-                        <h2>NOTICIAS</h2>
+                        <h2><img src="<?php echo get_template_directory_uri(); ?>/img/noticia.png"></h2>
                         <div class="content_pages">
                             <?php
                                  while ( have_posts() ) : the_post(); ?>

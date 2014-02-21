@@ -31,16 +31,6 @@
                 <?php
                         wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'items_wrap' => '<ul class="no-padding">%3$s</ul>')); 
                 ?>
-                    <!--<ul>
-                        <li><a href="#">AMSC</a></li>
-                        <li><a href="#">NOTICIAS</a></li>
-                        <li><a href="#">CALENDARIO DE EVENTOS</a></li>
-                        <li><a href="#">REGLAMENTO</a></li>
-                        <li><a href="#">RANKING</a></li>
-                        <li><a href="#">PLANILLAS</a></li>
-                        <li><a href="#">IMAGENES</a></li>
-                        <li><a href="#">CONTACTOS</a></li>
-                    </ul>-->    
                 </div>
             </div>
             <span class="log_franj_line"></span>

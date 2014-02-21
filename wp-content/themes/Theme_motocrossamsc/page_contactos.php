@@ -44,7 +44,7 @@
              <div class="body_block_two">
                   <span class="backgroud_body_two"></span>
                   <div class="wrapper">
-                        <h2>CONTACTOS</h2>
+                        <h2><img src="<?php echo get_template_directory_uri(); ?>/img/contact.png"></h2>
                         <div class="content_pages">
                              <h1>Dirección</h1>
                             <p>Villa Deportiva Abran Telchi</p>

@@ -46,7 +46,7 @@
              <div class="body_block_two">
                   <span class="backgroud_body_two"></span>
                   <div class="wrapper">
-                        <h2>REGLAMENTO</h2>
+                        <h2><img src="<?php echo get_template_directory_uri(); ?>/img/reglamento.png"></h2>
                         <div class="content_pages">
                             <div class="content_calendary">
                                <?php

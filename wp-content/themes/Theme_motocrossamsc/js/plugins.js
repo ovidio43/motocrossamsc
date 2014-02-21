@@ -28,6 +28,8 @@
          pager:false,
          controls:false
      });
+   
+
 
  /*window.addEvent('domready', function(){
     var mf = new MooFlow($('mooFlow'), {

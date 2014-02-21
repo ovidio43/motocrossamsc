@@ -3,16 +3,9 @@
             <span class="log_line_foot"></span>
             <div class="wrapper">
                 <div class="menu_foot">
-                    <ul>
-                        <li><a href="#">AMSC</a></li>
-                        <li><a href="#">NOTICIAS</a></li>
-                        <li><a href="#">CALENDARIO DE EVENTOS</a></li>
-                        <li><a href="#">REGLAMENTO</a></li>
-                        <li><a href="#">RANKING</a></li>
-                        <li><a href="#">PLANILLAS</a></li>
-                        <li><a href="#">IMAGENES</a></li>
-                        <li><a href="#">CONTACTOS</a></li>
-                    </ul>
+                     <?php
+                          wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'items_wrap' => '<ul class="no-padding">%3$s</ul>')); 
+                    ?>
                 </div>
                 <span class="log_foot"></span>
             </div>
@@ -24,9 +17,9 @@
         <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/bootstrap.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.bxslider/jquery.bxslider.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/source/jquery.fancybox.js?v=2.1.5"></script>
-       <!-- <script  src="js/mootools-1.2-core.js"></script>
-        <script  src="js/mootools-1.2-more.js"></script>
-        <script  src="js/mooflow.js"></script>-->
+        <!--<script  src="<?php //echo get_template_directory_uri(); ?>/js/mootools-1.2-core.js"></script>
+        <script  src="<?php //echo get_template_directory_uri(); ?>/js/mootools-1.2-more.js"></script>
+        <script  src="<?php// echo get_template_directory_uri(); ?>/js/mooflow.js"></script>-->
         <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 
