@@ -1,43 +1,7 @@
 
-<?php get_header(); ?>
-            <div class="body_block_one">
-                    <div class="wrapper">
-                        <div class="banner-slider">
-                            <ul class="slider_">
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_one.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_two.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_three.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_for.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_five.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_six.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_seven.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_eight.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_nine.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_ten.jpg">
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-            </div>
+<?php get_header();
+ require_once(get_template_directory() . '/lib/sliders.php');
+ ?>
              <div class="body_block_two">
                   <span class="backgroud_body_two"></span>
                   <div class="wrapper">
@@ -82,71 +46,7 @@
                                    else: ?>
                                    <p><?php _e('Sorry, no slider matched your criteria.'); ?></p>
                                    <?php endif; ?>
-                                  <!-- <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
-                                           <br><br>
-                                           <h5>6ta Fecha Departamental 2013</h5>
-                                           <h5>64 Fotos</h5>  
-                                        </a>
-                                        
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
-                                           <br><br>
-                                           <h5>6ta Fecha Departamental 2013</h5>
-                                           <h5>64 Fotos</h5>  
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
-                                           <br><br>
-                                           <h5>6ta Fecha Departamental 2013</h5>
-                                           <h5>64 Fotos</h5>  
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
-                                           <br><br>
-                                           <h5>6ta Fecha Departamental 2013</h5>
-                                           <h5>64 Fotos</h5>  
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
-                                           <br><br>
-                                           <h5>6ta Fecha Departamental 2013</h5>
-                                           <h5>64 Fotos</h5>  
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
-                                           <br><br>
-                                           <h5>6ta Fecha Departamental 2013</h5>
-                                           <h5>64 Fotos</h5>  
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
-                                           <br><br>
-                                           <h5>6ta Fecha Departamental 2013</h5>
-                                           <h5>64 Fotos</h5>  
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                           <img src="<?php //echo get_template_directory_uri(); ?>/img/subir2-212x157.jpg">
-                                           <br><br>
-                                           <h5>6ta Fecha Departamental 2013</h5>
-                                           <h5>64 Fotos</h5>  
-                                        </a>
-                                    </li>-->
+                                 
                                 </ul>
                             </div>
                         </div>

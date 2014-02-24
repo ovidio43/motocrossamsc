@@ -6,7 +6,7 @@
                   <span class="backgroud_body_two"></span>
                   <div class="wrapper">
                         <h2> 
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/ranking.png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/fecha.png">
                         </h2>
                         <div class="content_pages">
                             <div class="post_ranking">  
@@ -14,7 +14,7 @@
                                               <span class="ranking_background_header"></span>
                                           </div>
                                          <?php
-                                              $type = 'ranking';
+                                              $type = 'planilla';
                                               $args = array(
                                                   'post_type' => $type,
                                                   'post_status' => 'publish',

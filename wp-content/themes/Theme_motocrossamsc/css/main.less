@@ -38,14 +38,50 @@ ul{
 	.header_log{
 		position: relative;
 		height: 117px;
-		.log_right_header{
-			position: absolute;
-			height: 117px;
-			width: 228px;
+		.time{
+			position:absolute;
+			top: 14px;
 			right: 0;
-			top: 0;
-			background-image: url('../img/log_grade.jpg') ;
-			background-repeat: no-repeat;
+			width: 250px;
+			color:#fff;
+			font-size: 11px;
+			.temp_date{
+				position: relative;
+				text-align: right;
+				display: block;
+				margin-right: 63px;
+				.cont_temp{
+					position: relative;
+					float: right;
+					img{
+						display: inline-block;
+						width: auto;
+					}
+					#temp{
+						display: inline-block;
+						background: url('../img/bg_temp.gif') no-repeat;
+						height: 33px;
+						line-height: 31px;
+					}
+				}
+				.cont_date{
+					position: relative;
+					text-align: right;
+					clear: right;
+				}
+			}
+			.dispon{
+				position: relative;
+				float: right;
+				img{
+					width: auto;
+					display: inline;
+				}
+				h6{
+					display: inline;
+					margin-right: 40px;
+				}
+			}
 		}
 	}
 	.log_left_header{
@@ -555,9 +591,10 @@ ul{
 				position: relative;
 				display: table-cell;
 				width: 50%;
-				#mooflow{
+				.container_moflow{
+					position: relative;
 					width: 100%;
-					height: 236px;
+					
 				}
 				.cold_category_right{
 					position: relative;
@@ -746,8 +783,9 @@ ul{
 .footer{
 	position:relative;
 	width: 100%;
-	background: url('../img/background_one.jpg');
-	background-repeat: repeat;
+	background:url("../img/background_one.jpg") repeat; /*url('../img/background_footer.png'); */
+	background-repeat: repeat-x;
+	background-size: 100%;
 	.log_line_foot{
 		position: absolute;
 		width: 100%;

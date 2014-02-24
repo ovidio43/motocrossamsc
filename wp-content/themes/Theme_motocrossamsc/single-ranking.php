@@ -17,18 +17,31 @@
  * @since Twenty Fourteen 1.0
  */
  ?>
-<?php get_header(); 
-require_once(get_template_directory() . '/lib/sliders.php');
-?>
+<?php get_header();
+    $val=$_GET["idpost"];
+     require_once(get_template_directory() . '/lib/sliders.php');
+ ?>
              <div class="body_block_two">
                   <span class="backgroud_body_two"></span>
                   <div class="wrapper">
-                        <h2><img src="<?php echo get_template_directory_uri(); ?>/img/noticia.png"></h2>
+                        <h2><img src="<?php echo get_template_directory_uri(); ?>/img/ranking.png"></h2>
                         <div class="content_pages">
                             <?php
-                                 while ( have_posts() ) : the_post(); ?>
-                                 <h3> <?php the_title(); ?> </h3> <br>
-                            <?php      the_content();
+                                 while ( have_posts() ) : the_post(); 
+                                    if ($val=="enduro"){ 
+                                        $title=the_title();
+                                        ?>
+                                          <h3> <?php $title; ?>  </h3> 
+                                          ENDURO
+                                         <?php  the_field('enduro');
+                                      } else {?>
+                                            <h3> <?php $title; ?> </h3> 
+                                            CROSS
+                                            <?php 
+                                             the_field('cross'); 
+                                        } ?>
+
+                            <?php     
                                 endwhile;
                             ?>
                         </div>

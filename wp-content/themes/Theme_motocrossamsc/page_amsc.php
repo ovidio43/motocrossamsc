@@ -1,47 +1,12 @@
-
+<?php
 /**
  *Template name: template_amsc
  *
  */
-<?php get_header(); ?>
-            <div class="body_block_one">
-                    <div class="wrapper">
-                        <div class="banner-slider">
-                            <ul class="slider_">
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_one.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_two.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_three.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_for.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_five.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_six.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_seven.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_eight.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_nine.jpg">
-                                </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/imgbx_ten.jpg">
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-            </div>
+ get_header();
+ require_once(get_template_directory() . '/lib/sliders.php');
+ ?>
+            
              <div class="body_block_two">
                   <span class="backgroud_body_two"></span>
                   <div class="wrapper">
@@ -56,8 +21,7 @@
                                 query_posts($args);
                                 while (have_posts()) : the_post();
                                     the_content();
-                                endwhile;
-                                wp_reset_query(); 
+                               
                             ?>
                             
                             <div class="mini_wrapper">
@@ -77,7 +41,10 @@
                                             
                                 <?php   }
                                     }
+                                     endwhile;
+                                wp_reset_query(); 
                                 ?>
+
                                 <!--<div class="directory">
                                     <div class="dates">Cristian Robles</div>
                                     <div class="dates"> Presidente</div>

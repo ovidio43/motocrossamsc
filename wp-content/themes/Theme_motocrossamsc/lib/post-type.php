@@ -4,7 +4,9 @@ function custom_post_type_init() {
         array("slug" => "noticias", "plural" => "NOTICIAS", "singular" => "Noticia", "rewrite" => "noticia", "public" => true, "archive" => true, "supports" => array('title', 'editor', 'thumbnail')),
         array("slug" => "imagenes", "plural" => "IMAGENES", "singular" => "Imagen", "rewrite" => "imagenes", "public" => true, "archive" => true, "supports" => array('title', 'editor', 'thumbnail')),
         array("slug" => "videos", "plural" => "VIDEOS", "singular" => "video", "rewrite" => "videos", "public" => true, "archive" => true, "supports" => array('title', 'editor', 'thumbnail')),
-        array("slug" => "ranking", "plural" => "RANKING", "singular" => "ranking", "rewrite" => "ranking", "public" => true, "archive" => true, "supports" => array('title', 'editor', 'thumbnail'))
+        array("slug" => "ranking", "plural" => "RANKING", "singular" => "ranking", "rewrite" => "ranking", "public" => true, "archive" => true, "supports" => array('title', 'editor', 'thumbnail')),
+        array("slug" => "banner", "plural" => "BANNERS", "singular" => "banner", "rewrite" => "banner", "public" => true, "archive" => true, "supports" => array('title', 'editor', 'thumbnail')),
+        array("slug" => "planilla", "plural" => "PLANILLAS", "singular" => "planilla", "rewrite" => "planilla", "public" => true, "archive" => true, "supports" => array('title', 'editor', 'thumbnail'))
        
     );
 

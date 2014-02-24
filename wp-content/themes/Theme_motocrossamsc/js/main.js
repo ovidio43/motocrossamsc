@@ -68,30 +68,34 @@ jQuery(document).ready(function() {
     });
 
 
-    /*jQuery( ".post_detail_ranking_one" ).hover(
-     function(){
-     jQuery(this).css("display","block");
-     },
-     function(){
-     jQuery(this).css("display","none");
-     //jQuery(this).parent().siblings('.post_detail_ranking_one').css("display","none");
-     }
-     );*/
-    /* post_detail_ranking*/
-    //jQuery('.fancybox').fancybox();
+/*  myMooFlowPage = { 
+            start: function(){
+                var mf = new MooFlow($('id_moflow'), {
+                    useSlider: false,
+                    useAutoPlay: true,
+                    useCaption: true,
+                    useResize: true,
+                    useKeyInput: true
+                }); 
+                mf.play();  
+            }
+        };
+window.addEvent('domready', myMooFlowPage.start);*/
 
-    /* myMooFlowPage = {   
-     start: function(){
-     var mf = new MooFlow(jQuery('mooFlow'), {
-     useSlider: false,
-     useAutoPlay: true,
-     useCaption: true,
-     useResize: true,
-     useKeyInput: true
-     }); 
-     mf.play();  
-     }
-     };
-     window.addEvent('domready', myMooFlowPage.start);*/
 
 });
+
+
+/*window.addEvent('domready', function(){
+    var mf = new MooFlow($('id_moflow'), {
+        startIndex: 5,
+        useSlider: true,
+        useAutoPlay: true,
+        useCaption: true,
+        useResize: true,
+        useWindowResize: true,
+        useMouseWheel: true
+    
+    });
+ 
+});*/

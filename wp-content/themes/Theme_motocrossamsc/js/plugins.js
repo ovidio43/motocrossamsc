@@ -30,20 +30,6 @@
      });
    
 
-
- /*window.addEvent('domready', function(){
-    var mf = new MooFlow($('mooFlow'), {
-        startIndex: 5,
-        useSlider: true,
-        useAutoPlay: true,
-        useCaption: true,
-        useResize: true,
-        useWindowResize: true,
-        useMouseWheel: true,
-        useKeyInput: true
-    });
-});*/
-
 }());
 
 
