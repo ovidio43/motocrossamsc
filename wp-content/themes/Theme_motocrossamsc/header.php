@@ -1,6 +1,6 @@
  <?php 
                 date_default_timezone_set('UTC');
-                require_once(get_template_directory() . '/lib/simplepie.inc');
+                /*require_once(get_template_directory() . '/lib/simplepie.inc');
                 require_once(get_template_directory() . '/lib/simplepie_yahoo_weather.inc');
 
                 $code = "BLXX0012"; 
@@ -34,7 +34,7 @@
                 if ($curday > $iniday && $curday < $endday ) {
                     $ampm = "d";
                 }  
-
+*/
                 $date=date("Y-m-d ");
                 $date_for = split ("-", $date); 
                 $date_formating=$date_for[2]."-".$date_for[1]."-".$date_for[0];
@@ -71,7 +71,7 @@
                         <div class="temp_date">
                             <div class="cont_temp">            
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/temp_suny.gif" id="img_temp" alt="temp img">
-                                    <div id="temp">&nbsp;&nbsp;<?php echo $weather->get_temperature(); ?>&deg;<?php echo $unit; ?></div>   
+                                    <div id="temp">&nbsp;&nbsp;<?php //echo $weather->get_temperature(); ?>&deg;<?php //echo $unit; ?></div>   
                             </div><br>
                             <div class="cont_date">
                                 Santa Cruz Bolivia<br> <?php echo $date_formating; ?> 

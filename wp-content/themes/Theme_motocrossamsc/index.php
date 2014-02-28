@@ -11,53 +11,59 @@
                                     <div class="cold_block">
                                         <span class="cold_hover"></span>
                                         <div class="cold_category">
-                                            <a href="#" >
+                                            <a href="/tip-semanal/" >
                                                 <img src="<?php echo get_template_directory_uri(); ?>/img/tip_semanal.png" rel="tip_semanal.png" alt="h_tip_semanal.png">
                                             </a>
                                         </div>
-                                        <div class="cold_content" >
-                                            <img src="<?php echo get_template_directory_uri(); ?>/img/motociclismo-santa-cruz-jose.jpg">
-                                            <p>
-                                                Consejos para correr
-                                            </p>
-                                            <p>
-                                                Consejos para correr
-                                            </p>
-                                        </div>
+                                        <a href="/tip-semanal/" >
+                                            <div class="cold_content" >
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/motociclismo-santa-cruz-jose.jpg">
+                                                <p>
+                                                    Consejos para correr
+                                                </p>
+                                                <p>
+                                                    Consejos para correr
+                                                </p>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="cold_block">
                                         <span class="cold_hover"></span>
                                         <div class="cold_category">
-                                            <a href="#" >
+                                            <a href="/esc-fil/" >
                                                 <img src="<?php echo get_template_directory_uri(); ?>/img/campeones_2011.png" rel="campeones_2011.png" alt="h_campeones_2011.png">
                                             </a>
                                         </div>
-                                        <div class="cold_content" >
-                                            <img src="<?php echo get_template_directory_uri(); ?>/img/Motociclismo-Santa-Cruz-Largada.jpg" >
-                                            <p>
-                                                Consejos para correr
-                                            </p>
-                                            <p>
-                                                Consejos para correr
-                                            </p>
-                                        </div>
+                                        <a href="/esc-fil/" >
+                                            <div class="cold_content" >
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/Motociclismo-Santa-Cruz-Largada.jpg" >
+                                                <p>
+                                                    Consejos para correr
+                                                </p>
+                                                <p>
+                                                    Consejos para correr
+                                                </p>
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="cold_block">
                                         <span class="cold_hover"></span>
                                         <div class="cold_category">
-                                            <a href="#" >
+                                            <a href="/quieres-participar/" >
                                                 <img src="<?php echo get_template_directory_uri(); ?>/img/quieres_participar.png" rel="quieres_participar.png" alt="h_quieres_participar.png">
                                             </a>
                                         </div>
-                                        <div class="cold_content" >
-                                            <img src="<?php echo get_template_directory_uri(); ?>/img/motociclismo-santa-cruz-gonzalo.jpg">
-                                            <p>
-                                                Consejos para correr
-                                            </p>
-                                            <p>
-                                                Consejos para correr
-                                            </p>
-                                        </div>
+                                        <a href="/quieres-participar/" >
+                                            <div class="cold_content" >
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/motociclismo-santa-cruz-gonzalo.jpg">
+                                                <p>
+                                                    Consejos para correr
+                                                </p>
+                                                <p>
+                                                    Consejos para correr
+                                                </p>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="news_bg">

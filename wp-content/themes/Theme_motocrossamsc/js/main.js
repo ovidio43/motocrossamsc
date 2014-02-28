@@ -7,12 +7,12 @@ jQuery(document).ready(function() {
     jQuery(content_impar).css({"padding-top": "10px", "padding-bottom": "10px"});
     jQuery(content_par).css("background-image", "url('" + url_raiz + "/img/bgd_calendar.png')");
 
-    jQuery('#frm_contact input ').on('click', function(e) {
+    /*jQuery('#frm_contact input ').on('click', function(e) {
         e.preventDefault();
         jQuery(this).attr("value", "");
         jQuery(this).css({"box-sizing": "none"});
 
-    });
+    });*/
 
     jQuery(".cold_content").hover(
             function() {

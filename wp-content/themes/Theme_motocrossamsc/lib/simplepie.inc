@@ -1764,10 +1764,10 @@ function embed_wmedia(width, height, link) {
 						$this->data['build'] = SIMPLEPIE_BUILD;
 	
 						// Cache the file if caching is enabled
-						/*if ($cache && !$cache->save($this))
+						if ($cache && !$cache->save($this))
 						{
 							trigger_error("$cache->name is not writeable", E_USER_WARNING);
-						}*/
+						}
 						return true;
 					}
 					else
